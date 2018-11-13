@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <CodeAnalysisRuleSet>ConsoleAppCore.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <!-- https://stackoverflow.com/questions/46617261/enabling-code-analysis-for-net-core-2-0-project-results-ca0055-and-ca0052-error -->
+  <!--<ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>-->
+  
+</Project>
